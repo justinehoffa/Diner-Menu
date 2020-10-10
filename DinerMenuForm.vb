@@ -1,7 +1,7 @@
 ﻿Public Class DinerMenuForm
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Spaghetti.Click
         Me.Item1Label.Text = "Spaghetti"
-        Me.Item2Label.Text = "cheese and shit"
+        Me.Item2Label.Text = "Classic Spaghetti and meatballs somothered in savroy tomoato sauce!"
     End Sub
 
     Private Sub SplitContainer1_Panel2_Paint(sender As Object, e As PaintEventArgs) Handles SplitContainer1.Panel2.Paint
@@ -10,7 +10,7 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles ChickenParmesan.Click
         Me.Item1Label.Text = "Chicken Parmesan"
-        Me.Item2Label.Text = "cheese and shit"
+        Me.Item2Label.Text = "Crispy chicken smothered in a rich tomato sauce and melted mozzarella cheese!"
     End Sub
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -45,7 +45,7 @@
 
     Private Sub Pizza_Click(sender As Object, e As EventArgs) Handles Pizza.Click
         Me.Item1Label.Text = "Pizza"
-        Me.Item2Label.Text = "cheese and shit"
+        Me.Item2Label.Text = "Thin layer of crust topped with spiced tomato sauce and cheese and your choice of toppings!"
 
 
     End Sub
